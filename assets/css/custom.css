@@ -1,7 +1,34 @@
 .navbar-brand img {
-    height: 60px;
+    width: 200px;
 }
 
 .footer-logo img {
     height: 70px;
+}
+
+.header-wrap .header-top .header-top-right .header-top-menu li:last-child::before {
+    top: 9px;
+    right: 0;
+    content: "";
+    background-color: transparent;
+    width: 1px;
+    height: 12px;
+}
+
+.mr-0 {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+
+.theme-light .header-wrap.style1 .header-bottom .header-btn .btn.style1 {
+    background-color: #1E0A39;
+}
+
+.btn.style1:after,
+.btn.style1:before {
+    background: #e31929;
+}
+
+.theme-light .header-wrap.style1 .header-bottom .header-btn .btn.style1:after {
+    background-color: #c80013;
 }

@@ -789,7 +789,7 @@ select {
 }
 
 .btn.style1 {
-    background-color: #E31929
+    background-color: #573a7d;
 }
 
 .btn.style1:after,
@@ -1576,7 +1576,8 @@ select {
 }
 
 .social-profile.style1 li a i {
-    color: #E31929
+    color: #9894B3;
+    font-size: 21px;
 }
 
 .social-profile.style1 li a:hover {
@@ -7432,7 +7433,13 @@ article {
 
 .footer-wrap .footer-widget .social-link .social-profile li a {
     color: #fff;
-    font-size: 18px
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #9894b3;
+    border-radius: 50%;
+    padding: 7px;
+    height: 45px;
+    width: 45px;
 }
 
 .footer-wrap .footer-widget .social-link .social-profile li a:hover {
@@ -7449,7 +7456,7 @@ article {
 }
 
 .footer-wrap .footer-widget .footer-menu li a {
-    color: rgba(255, 255, 255, .8);
+    color: #9894B3;
     position: relative;
     padding-left: 18px
 }
@@ -7470,16 +7477,17 @@ article {
 
 .footer-wrap .footer-widget .footer-menu li a i {
     position: absolute;
-    top: 5px;
-    left: 0;
+    top: -5px;
+    left: -5px;
     font-size: 9px;
     color: #E31929;
     -webkit-transition: .5s;
-    transition: .5s
+    transition: .5s;
+    font-size: 20px;
 }
 
 .footer-wrap .footer-widget .footer-menu li a:hover {
-    color: #E31929
+    color: white
 }
 
 .footer-wrap .footer-widget .footer-menu li a:hover:after {
@@ -7547,7 +7555,7 @@ article {
     background-color: #161942;
     color: #fff;
     text-align: left;
-    padding: 10px 55px 10px 15px
+    padding: 10px 55px 10px 21px
 }
 
 .footer-wrap .footer-widget .newsletter-form input::-webkit-input-placeholder {

@@ -71,7 +71,7 @@ h5,
 h6 {
     font-weight: 700;
     line-height: 1.5;
-    color: #000;
+    color: #1E0A39;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1055,7 +1055,12 @@ select {
 }
 
 .bg-spring {
-    background-color: #f2fbfa
+    background-color: #EEE7F2;
+    background-image: url(../img/hero/hero-bg.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .bg-stratos {
@@ -3600,7 +3605,7 @@ select {
 }
 
 .hero-wrap.style1 .hero-slide-item {
-    padding: 100px 0 0
+    /* padding: 100px 0 0 */
 }
 
 .hero-wrap.style1 .hero-shape-one {

@@ -98,3 +98,82 @@
     position: relative;
     height: 260px;
 }
+
+.feature-icon-kev {
+    position: relative;
+    z-index: 20;
+}
+
+.feature-icon-kev img {
+    height: 65px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    z-index: 30;
+    position: relative;
+}
+
+.feature-icon-kev::before {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(214 195 224 / 43%);
+    top: 31px;
+    left: -14px;
+    z-index: 1;
+}
+
+.fw-semibold {
+    font-weight: 500;
+}
+
+.fs-xxlarge {
+    font-size: xx-large;
+}
+
+.btn-outline {
+    border: none;
+    border-radius: 5px;
+    width: 62%;
+    padding: 15px;
+    background-color: #E31929;
+    margin: 15px 0 0;
+    color: #fff;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.btn.btn-outline:after,
+.btn.btn-outline:before {
+    background: white
+}
+
+.btn.btn-outline:hover {
+    color: #1E0A39;
+    font-weight: 700;
+    border: none;
+}
+
+.kev-wrap {
+    position: relative;
+    background-image: url(../img/kev-img.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+.kev-wrap::before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-color: red;
+    background-image: linear-gradient(100deg, #55387B, #E31929);
+    opacity: 90%;
+}

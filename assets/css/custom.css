@@ -177,3 +177,7 @@
     background-image: linear-gradient(100deg, #55387B, #E31929);
     opacity: 90%;
 }
+
+.core-img img {
+    height: 80px;
+}

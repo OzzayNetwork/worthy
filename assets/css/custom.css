@@ -142,6 +142,7 @@
     color: #fff;
     border: 1px solid white;
     background-color: transparent;
+    height: 54px;
 }
 
 .btn.btn-outline:after,
@@ -158,6 +159,22 @@
 .kev-wrap {
     position: relative;
     background-image: url(../img/kev-img.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+.kev-wrap2 {
+    position: relative;
+    background-image: url(../img/kev-img2.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+.kev-wrap3 {
+    position: relative;
+    background-image: url(../img/kev-img3.png);
     background-attachment: fixed;
     background-size: contain;
     background-position: center;

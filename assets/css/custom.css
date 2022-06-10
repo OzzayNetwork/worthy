@@ -198,3 +198,112 @@
 .core-img img {
     height: 80px;
 }
+
+.product-img-1 {
+    background-image: url("../img/products/product-1.jpg");
+    background-size: cover;
+    transition: 0.6s;
+    /* background-repeat-x: repeat; */
+    background-position: top left;
+}
+
+.product-img-2 {
+    background-image: url("../img/products/product-2.jpg");
+    background-size: cover;
+    transition: 0.6s;
+    /* background-repeat-x: repeat; */
+    background-position: top left;
+}
+
+.product-img-3 {
+    background-image: url("../img/products/product-3.jpg");
+    background-size: cover;
+    transition: 0.6s;
+    /* background-repeat-x: repeat; */
+    background-position: top left;
+}
+
+.product-img-4 {
+    background-image: url("../img/products/product-4.jpg");
+    background-size: cover;
+    transition: 0.6s;
+    /* background-repeat-x: repeat; */
+    background-position: top left;
+}
+
+.product-img {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.products-link {
+    height: 0px;
+    opacity: 0;
+}
+
+.product-item {
+    position: relative;
+    height: 500px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    color: white;
+    transition: 0.8s;
+}
+
+.product-item:hover .product-img {
+    transform: scale(1.5);
+    transform: rotate(5deg) scale(1.5);
+    transition: 0.6s;
+}
+
+.product-item p {
+    transition: 0.6s;
+}
+
+.product-item:hover .product-content p {
+    margin-bottom: 50px;
+    transition: 0.6s;
+}
+
+.product-item:hover::before {
+    background-color: rgb(0 0 0 / 90%);
+    transition: 0.6s;
+}
+
+.product-item:hover .products-link {
+    opacity: 1;
+    height: auto;
+}
+
+.product-item::before {
+    position: absolute;
+    background-color: rgb(0 0 0 / 64%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.product-item img {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    display: none;
+}
+
+.product-content {
+    z-index: 2;
+    transition: 0.6s;
+}

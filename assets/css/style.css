@@ -7667,7 +7667,7 @@ article {
         font-size: 14px
     }
     .footer-wrap .footer-widget .footer-menu li a i {
-        top: 3px
+        /* top: 3px */
     }
     .footer-wrap .footer-widget .newsletter-form input {
         height: 48px

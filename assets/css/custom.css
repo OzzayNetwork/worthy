@@ -391,6 +391,18 @@
             background: #ffffff;
         }
         
+        .bg-primary {
+            background-color: #573a7d !important;
+        }
+        
+        .bg-secondary {
+            background-color: #eb3239 !important;
+        }
+        
+        .border-bottom-secondary {
+            border-bottom: 8px solid #eb3239;
+        }
+        
         @media only screen and (max-width:767px) {
             .feature-icon-kev img {
                 height: 50px;

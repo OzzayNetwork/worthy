@@ -164,6 +164,15 @@
             background-position: center;
         }
         
+        .kev-wrap-about {
+            position: relative;
+            background-image: url(../img/about/about-img.jpg);
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        
         .kev-wrap2 {
             position: relative;
             background-image: url(../img/kev-img2.png);

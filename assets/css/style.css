@@ -5414,7 +5414,8 @@ select {
 .account-form .form-group label {
     display: block;
     margin: 0 0 10px;
-    text-align: left
+    text-align: left;
+    font-weight: 500;
 }
 
 .account-form .form-group input,
@@ -5425,7 +5426,18 @@ select {
     border: none;
     background: #f9f9f9;
     padding: 15px 20px;
-    resize: none
+    resize: none;
+    border: 1px solid #0000003b;
+    border-radius: 5px;
+}
+
+.account-form .form-group input:focus,
+.account-form .form-group textarea:focus {
+    border: 2px solid rgb(87 58 125);
+}
+
+.account-form .form-group textarea {
+    height: auto;
 }
 
 .account-form .form-group select {

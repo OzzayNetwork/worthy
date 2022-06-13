@@ -173,6 +173,24 @@
             background-repeat: repeat;
         }
         
+        .kev-wrap-product {
+            position: relative;
+            background-image: url(../img/about/loan-products.jpg);
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        
+        .kev-wrap-application {
+            position: relative;
+            background-image: url(../img/about/loan-products.jpg);
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: center;
+            background-repeat: repeat;
+        }
+        
         .kev-wrap2 {
             position: relative;
             background-image: url(../img/kev-img2.png);

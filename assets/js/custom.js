@@ -94,3 +94,24 @@ function numberWithCommas(x) {
 function round(x) {
     return Math.round(x * 100) / 100;
 }
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var hours = today.getHours();
+var minutes = today.getMinutes();
+if (hours >= 5) {
+    if (hours < 13) {
+        $('.salutations').text("Good morning to you");
+    }
+}
+
+if (hours >= 13) {
+    if (hours < 18) {
+        $('.salutations').text("Good Afternoon");
+    }
+}
+
+if (hours >= 18) {
+    if (hours < 6) {
+        $('.salutations').text("Wishing you a lovely evening");
+    }
+}

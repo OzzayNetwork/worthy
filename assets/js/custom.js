@@ -98,7 +98,7 @@ var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 var hours = today.getHours();
 var minutes = today.getMinutes();
-alert(hours)
+//alert(hours)
 if (hours >= 5) {
     if (hours < 13) {
         $('.salutations').text("Good morning to you");

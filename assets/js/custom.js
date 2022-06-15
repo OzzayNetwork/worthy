@@ -105,12 +105,12 @@ if (hours >= 5) {
 }
 
 if (hours >= 13) {
-    if (hours < 18) {
+    if (hours < 17) {
         $('.salutations').text("Good Afternoon");
     }
 }
 
-if (hours >= 18) {
+if (hours >= 17) {
     if (hours < 6) {
         $('.salutations').text("Wishing you a lovely evening");
     }

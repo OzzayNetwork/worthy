@@ -98,6 +98,7 @@ var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 var hours = today.getHours();
 var minutes = today.getMinutes();
+alert(hours)
 if (hours >= 5) {
     if (hours < 13) {
         $('.salutations').text("Good morning to you");
@@ -111,6 +112,10 @@ if (hours >= 13) {
 }
 
 if (hours >= 17) {
+
+    $('.salutations').text("Wishing you a lovely evening");
+}
+if (hours > 0) {
     if (hours < 6) {
         $('.salutations').text("Wishing you a lovely evening");
     }

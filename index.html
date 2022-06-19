@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="Worthy Credit Capitals is reputable Microfinance with specialists and has extensive knowledge and experience of what is realistic and practical in different situations for the people and organizations we work with." name="description" />
     <meta content="Kelvin Njuguna Ndungu" name="author" />
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate/animate.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/remixicon.css">
@@ -29,10 +29,27 @@
 
 <body>
 
-    <div class="loader js-preloader">
+    <!-- <div class="loader js-preloader">
         <div></div>
         <div></div>
         <div></div>
+    </div> -->
+
+    <div class="page-loader flex-column">
+        <div class="page-loader__spinner">
+            <svg viewBox="25 25 50 50">
+                <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+            </svg>
+            <img src="assets/img/logo-w.svg" class="logo-loader">
+
+        </div>
+        <span class="powerd-container">
+            <div class="wrapper">
+                <div class="typing-demo">
+                  We listen. We solve.
+                </div>
+            </div>
+        </span>
     </div>
 
 
@@ -228,7 +245,7 @@
             <img src="assets/img/hero/hero-1.svg" alt="Image" class="hero-shape-four md-none d-none">
             <div class="hero-slider-one owl-carousel">
                 <div class="hero-slide-item">
-                    <div class="the-hero-bg the-hero-bg-listening" data-speed="0.10" data-revert="true">
+                    <div class="the-hero-bg the-hero-bg-listening wow fadeInUpShorter" data-wow-delay="200ms" data-wow-duration="300ms">
 
                     </div>
                     <div class="container-fluid">
@@ -242,7 +259,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 ">
-                                <div class="hero-img-wrap opacity-0">
+                                <div class="hero-img-wrap  opacity-0">
                                     <img src="assets/img/hero/hero-slide-4.png" alt="Image">
                                 </div>
                             </div>
@@ -260,7 +277,7 @@
                                     <span class="text-capitalize">You are worthy, you deserve the very best.</span>
                                     <h1 class="text-capitalize">Worthy Loans.</h1>
                                     <p>We are not just lenders, We are devoted partners. We’re pillars that stand to support your dreams.</p>
-                                    <a href="service-one.html" class="btn style1">Get Started</a>
+                                    <a href="service-one.html" class="btn style1 d-none">Get Started</a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -409,7 +426,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="bg-albastor">
             <div class="container">
                 <div class="row feature-cards-container">
                     <div class="col-12 feature-card feature-card-kev position-relative d-md-flex d-none">
@@ -436,7 +453,7 @@
 
                             <div class="col-12 col-3 col-sm-12 col-md-3 border-right ">
                                 <div class="feature-kev">
-                                    <span><img src="assets/img/feature/shield.svg" alt="Image"></span>
+                                    <span><img src="assets/img/feature/hand.svg" alt="Image"></span>
                                     <h6>Personalized service</h6>
                                     <p>
                                         We have dedicated relationship managers, ready to listen and offer personalized solutions..</p>
@@ -445,7 +462,7 @@
 
                             <div class="col-12 col-3 col-sm-12 col-md-3 ">
                                 <div class="feature-kev">
-                                    <span><img src="assets/img/feature/percentage.svg" alt="Image"></span>
+                                    <span><img src="assets/img/feature/bolt.svg" alt="Image"></span>
                                     <h6 class="text-capitalize">Fast processes</h6>
                                     <p>
                                         We offer solutions with quick turnaround times. </p>
@@ -460,12 +477,12 @@
         </section>
 
 
-        <section class="about-wrap style1 ptb-100">
+        <section class="about-wrap style1 ptb-100 bg-albastor">
             <div class="container">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-5">
                         <div class="about-img-wrap">
-                            <img src="assets/img/about/about-shape-1.png" alt="Image" class="about-shape-one bounce">
+                            <img src="assets/img/about/about-shape-1.png" alt="Image" class="about-shape-one bounce d-none">
                             <img src="assets/img/about/about-shape-2.png" alt="Image" class="about-shape-two moveHorizontal">
                             <img src="assets/img/about/about-img-1.png" alt="Image" class="about-img">
                         </div>
@@ -475,7 +492,7 @@
                             <img src="assets/img/about/about-shape-3.png" alt="Image" class="about-shape-three">
                             <div class="content-title style1">
                                 <span class="d-none">About Us</span>
-                                <h2 class="">Who is Worthy Credit Capitals?
+                                <h2 class="wow fadeInUpShorter" data-wow-delay="200ms" data-wow-duration="300ms">Who is Worthy Credit Capitals?
                                 </h2>
                                 <p>Worthy Credit Capitals is a reputable microfinance institution, offering tailor-made financial services. Equipped with a professional team, ready to listen and provide solutions for your financial needs.</p>
                             </div>

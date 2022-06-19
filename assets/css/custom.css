@@ -550,6 +550,191 @@
             color: black;
         }
         
+        .page-loader {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: white;
+            z-index: 999999999;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex
+        }
+        
+        .page-loader__spinner {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ;
+        }
+        
+        .page-loader__spinner img {
+            height: 80px;
+        }
+        
+        .page-loader__spinner svg {
+            -webkit-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0
+        }
+        
+        .page-loader__spinner svg circle {
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+            -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+            animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+            stroke-linecap: round
+        }
+        
+        @keyframes scale-logo {
+            0% {
+                transform: scale(0.8);
+                -webkit-transform: scale(0.8);
+            }
+            100% {
+                transform: scale(1.3);
+                -webkit-transform: scale(1.3);
+            }
+        }
+        
+        .logo-loader {
+            animation: scale-logo 0.5 ease-in-out infinite alternate;
+            -webkit-animation: scale-logo 0.8s ease-in-out infinite alternate;
+        }
+        
+        @-webkit-keyframes rotate {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg)
+            }
+        }
+        
+        @keyframes rotate {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg)
+            }
+        }
+        
+        @-webkit-keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0
+            }
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35px
+            }
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124px
+            }
+        }
+        
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0
+            }
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35px
+            }
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124px
+            }
+        }
+        
+        @-webkit-keyframes color {
+            0%,
+            100% {
+                stroke: #55387B;
+                color: #55387B;
+            }
+            40% {
+                stroke: #EB3338
+            }
+            66% {
+                stroke: #905ea8
+            }
+            80%,
+            90% {
+                stroke: #CD202D
+            }
+        }
+        
+        @keyframes color {
+            0%,
+            100% {
+                stroke: #55387B;
+                color: #55387B;
+            }
+            40% {
+                stroke: #EB3338;
+                color: #EB3338;
+            }
+            66% {
+                stroke: #905ea8;
+                color: #905ea8;
+            }
+            80%,
+            90% {
+                stroke: #CD202D;
+                color: black;
+            }
+        }
+        /*Typing animation*/
+        
+        .wrapper {
+            /* height: 100vh; */
+            /*This part is important for centering*/
+            display: grid;
+            place-items: center;
+        }
+        
+        .typing-demo {
+            width: 15ch;
+            -webkit-animation: typing 2s steps(22), blink .5s step-end infinite alternate, color 6s ease-in-out infinite;
+            animation: typing 2s steps(22), blink .5s step-end infinite alternate, color 6s ease-in-out infinite;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid;
+            /* font-family: monospace; */
+            font-size: 1.5em;
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0
+            }
+        }
+        
+        @keyframes blink {
+            50% {
+                border-color: transparent
+            }
+        }
+        
         @media only screen and (max-width:767px) {
             .feature-icon-kev img {
                 height: 50px;

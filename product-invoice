@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="Worthy Credit Capitals is reputable Microfinance with specialists and has extensive knowledge and experience of what is realistic and practical in different situations for the people and organizations we work with." name="description" />
-   <meta content="Kelvin Njuguna Ndungu" name="author" />
+    <meta content="Kelvin Njuguna Ndungu" name="author" />
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/flaticon.css">
@@ -80,7 +80,7 @@
                         <div class="col-lg-4 col-md-12">
                             <div class="header-top-left">
                                 <ul class="contact-info list-style">
-                                     <li class="text-white text-capitalize">
+                                    <li class="text-white text-capitalize">
                                         <span class="salute-intro opacity-50 text-capitalize">Hello There,</span> <span class="salutations">Good Morning to you</span>
                                     </li>
 
@@ -175,7 +175,7 @@
 
 
                                 <li class="nav-item xl-none">
-                                    <a href="register.html" class="btn style1">Register Now</a>
+                                    <a href="apply-loan.html" class="btn style1">Apply For A Loan</a>
                                 </li>
                             </ul>
                             <div class="others-options  lg-none ">
@@ -416,7 +416,7 @@
         </div>
 
 
-         <footer class="footer-wrap bg-rock">
+        <footer class="footer-wrap bg-rock">
             <div class="container">
                 <img src="assets/img/footer-shape-1.png" alt="Image" class="footer-shape-one">
                 <img src="assets/img/footer-shape-2.png" alt="Image" class="footer-shape-two">
@@ -568,7 +568,7 @@
     <a href="javascript:void(0)" class="back-to-top bounce"><i class="ri-arrow-up-s-line"></i></a>
 
 
-     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.js"></script>
@@ -582,7 +582,7 @@
     <script src="assets/js/custom.js"></script>
 
     <!--Start of Tawk.to Script-->
-   <script type="text/javascript">
+    <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
             Tawk_LoadStart = new Date();
         (function() {

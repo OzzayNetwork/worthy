@@ -789,3 +789,11 @@
         .theme-dark .navbar .navbar-brand {
             background-color: #1a1027;
         }
+        
+        .searchbtn {
+            display: none !important;
+        }
+        
+        .mobile-sidebar {
+            padding-right: 1rem;
+        }

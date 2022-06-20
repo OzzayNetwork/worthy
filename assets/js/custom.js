@@ -136,6 +136,7 @@ $(window).on("load", function() {
             live: true // act on asynchronously loaded content (default is true)
         });
         wow.init();
+        new WOW().init();
     }
 
     $('#account_type').on('change', function() {

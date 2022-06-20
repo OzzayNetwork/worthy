@@ -138,6 +138,50 @@ $(window).on("load", function() {
         wow.init();
     }
 
+    $('#account_type').on('change', function() {
+        var theVal = $(this).val();
+        $('.select-loaner').addClass('d-none')
+        if (theVal == 1) {
+            $('.asset-loan').removeClass('d-none');
+
+        }
+
+
+        if (theVal == 2) {
+            $('.import-loan').removeClass('d-none').parent().siblings('.select-loaner').addClass('d-none');
+
+        }
+
+        if (theVal == 3) {
+            $('.invoice-loan').removeClass('d-none').parent().siblings('.select-loaner').addClass('d-none');
+
+        }
+
+        if (theVal == 4) {
+            $('.lpo-loan').removeClass('d-none').parent().siblings('.select-loaner').addClass('d-none');
+
+        }
+
+        if (theVal == 5) {
+            $('.lpo-loan').addClass('d-none').parent().siblings('.select-loaner').addClass('d-none');
+
+        }
+
+        if (theVal == 6) {
+            $('.logbook-loan').removeClass('d-none').parent().siblings('.select-loaner').addClass('d-none');
+
+        }
+
+        if (theVal == 7) {
+            $('.title-loan').removeClass('d-none').parent().siblings('.select-loaner').addClass('d-none');
+
+        }
+
+        if (theVal == 0) {
+            $('.select-loaner').addClass('d-none')
+        }
+    })
+
 
     // typing animation
 

@@ -284,23 +284,25 @@
                             <div class="col-md-6 ">
                                 <div class="form-group">
                                     <label for="account_type">Select Loan product</label>
+
                                     <select name="account_type" id="account_type">
+
+                                        <option value="0">-- Select Topic for discussion --</option>
                                     
                                     <option value="1">Asset Finance Loans</option>
                                     <option value="2">Import duty Finance Loans</option>
                                     
-                                    <option value="0">Invoice discounting</option>
-                                    <option value="1">LPO FInancing</option>
-                                    <option value="2">Check Off Loans</option>
-
-                                    <option value="0">Logbook loans</option>
-                                    <option value="0">Title Deed Loans</option>
+                                    <option value="3">Invoice discounting</option>
+                                    <option value="4">LPO FInancing</option>
+                                    <option value="5">Check Off Loans</option>
+                                    <option value="6">Logbook loans</option>
+                                    <option value="7">Title Deed Loans</option>
                                     </select>
                                 </div>
                             </div>
 
                             <div class="col-md-12 ">
-                                <div class="bg-albastor p-4 mb-4 asset-loan">
+                                <div class="bg-albastor p-4 mb-4 asset-loan select-loaner d-none">
                                     <div class="form-group">
                                         <h4>Asset Finance Loans requirements</h4>
                                         <ul class="content-feature-list style2 list-style">
@@ -315,7 +317,7 @@
                             </div>
 
                             <div class="col-md-12 ">
-                                <div class="bg-albastor p-4 mb-4 import-loan">
+                                <div class="bg-albastor p-4 mb-4 import-loan select-loaner d-none">
                                     <div class="form-group">
                                         <h4>Import Duty Finance loans requirements</h4>
                                         <ul class="content-feature-list style2 list-style">
@@ -332,7 +334,7 @@
                             </div>
 
                             <div class="col-md-12 ">
-                                <div class="bg-albastor p-4 mb-4 logbook-loan">
+                                <div class="bg-albastor p-4 mb-4 logbook-loan select-loaner d-none">
                                     <div class="form-group">
                                         <h4>Logbook Loans requirements</h4>
                                         <ul class="content-feature-list style2 list-style">
@@ -348,7 +350,7 @@
                             </div>
 
                             <div class="col-md-12 ">
-                                <div class="bg-albastor p-4 mb-4 logbook-loan">
+                                <div class="bg-albastor p-4 mb-4 invoice-loan select-loaner d-none">
                                     <div class="form-group">
                                         <h4>Invoice Discount Loans requirements</h4>
                                         <ul class="content-feature-list style2 list-style">
@@ -357,6 +359,37 @@
                                             <li class="d-none"><i class="ri-check-line"></i>Acceptable collateral</li>
                                             <li><i class="ri-check-line"></i>Latest bank statements for the business.</li>
                                             <li><i class="ri-check-line"></i>ID copy of the applicant.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 ">
+                                <div class="bg-albastor p-4 mb-4 lpo-loan select-loaner d-none">
+                                    <div class="form-group">
+                                        <h4>LPO Financing Loans requirements</h4>
+                                        <ul class="content-feature-list style2 list-style">
+                                            <li><i class="ri-check-line"></i>KRA and ID copy of the applicant</li>
+                                            <li class="d-none"><i class="ri-check-line"></i>Passport photos</li>
+                                            <li><i class="ri-check-line"></i>Original LPO/ LSO/ Contract.</li>
+                                            <li><i class="ri-check-line"></i>Pro-forma invoices for the goods to be supplied/ break-down of costs.</li>
+                                            <li><i class="ri-check-line"></i>Tangible security eg. Logbook or Title Deed.</li>
+                                            <li><i class="ri-check-line"></i>Evidence of similar past jobs done through past invoices and delivery notes.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 ">
+                                <div class="bg-albastor p-4 mb-4 title-loan select-loaner d-none">
+                                    <div class="form-group">
+                                        <h4>Title Deed Loans requirements</h4>
+                                        <ul class="content-feature-list style2 list-style">
+                                            <li><i class="ri-check-line"></i>KRA and ID copy of the applicant</li>
+                                            <li class=""><i class="ri-check-line"></i>12 Months bank statement</li>
+                                            <li><i class="ri-check-line"></i>Copy of the Title Deed</li>
+                                            <li><i class="ri-check-line"></i>Valuation report of property</li>
+                                            <li><i class="ri-check-line"></i>Legal charge over the property</li>
                                         </ul>
                                     </div>
                                 </div>

@@ -362,7 +362,7 @@
         }
         
         .switch-theme-mode {
-            display: none;
+            /* display: none; */
         }
         
         .product-container .owl-nav {
@@ -746,4 +746,46 @@
         
         .searchbox {
             display: none;
+        }
+        
+        .sticky .navbar-brand {
+            position: absolute;
+            background: red;
+            height: 124px;
+            top: 2px;
+            padding: 15px !important;
+            background: white;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 45px;
+        }
+        
+        .sticky .header-top {
+            padding-bottom: 13px;
+        }
+        
+        .theme-dark .hero-content {
+            background-color: rgb(14 2 30 / 84%);
+        }
+        
+        .theme-dark .feature-kev {
+            background: black;
+        }
+        
+        .theme-dark .feature-card-kev {
+            background-color: black;
+        }
+        
+        .theme-dark .border-right {
+            border-right: 1px solid #100f12;
+        }
+        
+        .theme-dark .feature-kev h6::before {
+            background: #573a7d;
+        }
+        
+        .theme-dark .navbar .navbar-brand {
+            background-color: #1a1027;
         }

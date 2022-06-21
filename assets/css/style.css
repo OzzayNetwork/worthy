@@ -1818,7 +1818,7 @@ select {
 }
 
 .header-wrap .header-top {
-    padding: 10px 0 13px;
+    padding: 8px 0 8px;
     background-color: #55387B
 }
 
@@ -7739,6 +7739,21 @@ article {
 @media only screen and (max-width:1199px) {
     .footer-wrap .footer-top .footer-widget .footer-widget-title {
         margin-bottom: 18px
+    }
+    .navbar .navbar-brand {
+        position: relative !important;
+        height: auto;
+        top: 0;
+        padding: 0px !important;
+        background: white;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+    }
+    .navbar .navbar-brand img {
+        width: 200px;
     }
 }
 

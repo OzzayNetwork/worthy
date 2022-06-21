@@ -1,5 +1,5 @@
 .navbar-brand img {
-    width: 245px;
+    width: 340px;
 }
 
 .footer-logo img {
@@ -448,10 +448,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 45px;
-}
-
-.header-wrap .header-top {
-    padding-bottom: 30px;
 }
 
 .runing-text {
@@ -1402,6 +1398,33 @@
 
 .arrow.arrow-light {
     background-image: url(../img/arrows-dark.png);
+}
+
+@media screen and (min-width:1200) {
+    .navbar .navbar-brand {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .navbar .navbar-brand {
+        position: relative !important;
+        height: auto;
+        top: 0;
+        padding: 0px !important;
+        background: white;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+    }
+    .navbar .navbar-brand img {
+        width: 200px;
+    }
+    .salute-intro {
+        margin-left: 0px !important;
+    }
 }
 
 

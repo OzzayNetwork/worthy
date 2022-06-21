@@ -181,7 +181,11 @@ $(window).on("load", function() {
         if (theVal == 0) {
             $('.select-loaner').addClass('d-none')
         }
-    })
+    });
+
+    var logoWidth = $('.header-bottom .navbar-brand').outerWidth();
+    // alert(logoWidth);
+    $('.salute-intro').css('margin-left', logoWidth)
 
 
     // typing animation

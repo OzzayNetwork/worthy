@@ -173,6 +173,12 @@
                                     </a>
                                 </li>
 
+                                <li class="nav-item">
+                                    <a href="gallery.html" class="nav-link">
+                                    Gallery
+                                    </a>
+                                </li>
+
 
                                 <li class="nav-item xl-none">
                                     <a href="apply-loan.html" class="btn style1">Apply For A Loan</a>

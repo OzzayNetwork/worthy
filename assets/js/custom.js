@@ -190,4 +190,70 @@ $(window).on("load", function() {
 
     // typing animation
 
+
+     /*--
+    	Isotop with ImagesLoaded
+    -----------------------------------*/
+    var isotopFilter = $('.isotop-filter');
+    var isotopGrid = $('.isotop-grid');
+    var isotopGridItem = '.isotop-item';
+
+    isotopFilter.find('button:first-child').addClass('active');
+
+    /*-- Images Loaded --*/
+    isotopGrid.imagesLoaded(function() {
+
+        isotopGrid.isotope({
+            itemSelector: isotopGridItem,
+            layoutMode: 'masonry',
+        });
+
+        /*-- Isotop Filter Menu --*/
+        isotopFilter.on('click', 'button', function() {
+
+            var filterValue = $(this).attr('data-filter');
+
+            isotopFilter.find('button').removeClass('active');
+            $(this).addClass('active');
+            isotopGrid.isotope({ filter: filterValue });
+
+        });
+
+    });
+
+    /*--
+    	Video Popup
+    -----------------------------------*/
+    var videoPopup = $('.video-popup');
+    videoPopup.magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+
+    /*--
+    	Image Popup
+    -----------------------------------*/
+    var imagePopup = $('.image-popup');
+    imagePopup.magnificPopup({
+        type: 'image',
+        mainClass: 'mfp-fade',
+    });
+
+    /*--
+    	Image Popup
+    -----------------------------------*/
+    var galleryPopup = $('.gallery-popup');
+    galleryPopup.magnificPopup({
+        type: 'image',
+        mainClass: 'mfp-fade',
+        gallery: {
+            enabled: true,
+        },
+    });
+
+
 });
